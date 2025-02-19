@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 85%;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header-ota{
+    display: flex;
+    justify-content: space-between;
+}
+.header-bola2{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+.header-bola{
+    display: flex;
+    color: white;
+    gap: 29px;
+}
+.header-button{
+    width: 175px;
+    height: 50px;
+    background: #BFAFF2;
+    border-radius: 10px;
+
+}
+select{
+    background-color: rgb(23, 23, 39);
+    border: none;
+}
+
+
+
+.but {
+    background-color: violet;
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.ong {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.ht {
+    color: white;
+}
+
+.hea {
+    display: flex;
+    margin: 500px 0 0 0;
+    gap: 250px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.dil {
+    margin: 500px;
+}
+
+.img1 {
+    animation-name: img1-anim;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+
+@keyframes img1-anim{
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(25px);
+    }
+
+    50%{
+        transform: translateY(-25px);
+    }
+}
+
+.img2 {
+    animation-name: img1-anim;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    position: absolute;
+    top: 200px;
+    left: 559px;
+}
+
+.img3 {
+    animation-name: img1-anim;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    position: absolute;
+    top: 200px;
+    left: 1600px;
+}
+
+.img4 {
+    animation-name: img1-anim;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+}
+
+.div {
+    width: 200px;
+
+}
+
+.po {
+    width: 200px;
+}
+.on{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-ota{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.a1{
+    color: white;
+}
+.a3{
+    color: white;
+    text-decoration: underline;
+}
